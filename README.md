@@ -1,8 +1,25 @@
 # setup-web-projects
 
-## Laravel And Vue.js
+A comprehensive guide and collection of setup instructions for modern web development projects. This repository provides detailed instructions for setting up various web development environments and frameworks.
 
-This repository contains instructions for setting up a Laravel project with Vue.js integration. Below are two different methods to achieve this setup.
+## Features
+
+- **Laravel + Vue.js**: Complete setup guide for Laravel applications with Vue.js integration
+- **Next.js + Shadcn**: Modern React setup with Next.js and Shadcn/ui components
+- **Starter Kits**: Instructions for using official Laravel starter kits
+- **Best Practices**: Development guidelines and best practices for each stack
+
+## Getting Started
+
+Choose the technology stack you want to work with from the sections below. Each section contains detailed setup instructions, configuration guides, and best practices.
+
+## Quick Navigation
+
+[![Tech Stack Navigation](https://raw.githubusercontent.com/yourusername/setup-web-projects/main/docs/tech-stack-nav.png)](https://github.com/yourusername/setup-web-projects#tech-stack-navigation)
+
+> Click the image above to quickly navigate to your desired technology stack. No need to scroll through the entire document!
+
+## Laravel And Vue.js
 
 ### Method 1: Using Laravel UI Package (Recommended for Beginners)
 
