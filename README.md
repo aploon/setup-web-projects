@@ -1,6 +1,6 @@
 # setup-web-projects
 
-## Laravel And Vue.js Setup Instructions
+## Laravel And Vue.js
 
 This repository contains instructions for setting up a Laravel project with Vue.js integration. Below are two different methods to achieve this setup.
 
@@ -205,3 +205,91 @@ In order to ensure that the Laravel community is welcoming to all, please review
 ### License
 
 The Laravel starter kits are open-sourced software licensed under the MIT license.
+
+## Next.js And Shadcn
+
+### Installation and Setup
+
+1. Create a new Next.js project:
+```bash
+npx create-next-app@latest my-app
+```
+
+2. Navigate to your project directory:
+```bash
+cd my-app
+```
+
+3. Initialize Shadcn/ui in your project:
+```bash
+npx shadcn@latest init
+```
+
+During the initialization, you'll be prompted to:
+- Choose between a Next.js project or Monorepo
+- Select your preferred style (Default or New York)
+- Choose your color preferences
+- Select the location for your components
+- Configure the import alias
+
+### Adding Components
+
+You can add Shadcn/ui components to your project using the following command:
+
+```bash
+npx shadcn@latest add button
+```
+
+### Using Components
+
+After adding components, you can import and use them in your pages:
+
+```tsx
+import { Button } from "@/components/ui/button"
+ 
+export default function Home() {
+  return (
+    <div>
+      <Button>Click me</Button>
+    </div>
+  )
+}
+```
+
+### Available Components
+
+Shadcn/ui provides a wide range of components that you can add to your project:
+
+- Button
+- Card
+- Dialog
+- Dropdown Menu
+- Input
+- Form
+- Select
+- Tabs
+- Toast
+- And many more...
+
+To add any component, simply use the `add` command followed by the component name:
+
+```bash
+npx shadcn@latest add [component-name]
+```
+
+### Best Practices
+
+1. **Component Location**: Keep your components in the `components/ui` directory for better organization
+2. **Styling**: Use Tailwind CSS classes for custom styling
+3. **TypeScript**: Enable TypeScript for better type safety and developer experience
+4. **Theme Customization**: Customize your theme in the `globals.css` file
+
+### Development
+
+Start your development server:
+
+```bash
+npm run dev
+```
+
+Your application will be available at http://localhost:3000
