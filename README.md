@@ -8,6 +8,8 @@ A comprehensive guide and collection of setup instructions for modern web develo
 - **Next.js + Shadcn**: Modern React setup with Next.js and Shadcn/ui components
 - **Starter Kits**: Instructions for using official Laravel starter kits
 - **Best Practices**: Development guidelines and best practices for each stack
+- **More soon ;)**
+
 
 ## Getting Started
 
