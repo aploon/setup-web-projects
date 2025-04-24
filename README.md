@@ -159,6 +159,37 @@ Inertia allows you to build modern, single-page Vue applications using classic s
 
 This starter kit utilizes TypeScript, Tailwind, and the [shadcn-vue](https://www.shadcn-vue.com) component library.
 
+### Installation
+
+To create a new Laravel application using one of our starter kits, follow these steps:
+
+1. First, ensure you have PHP and Composer installed on your system. Then install the Laravel installer CLI tool:
+
+```bash
+composer global require laravel/installer
+```
+
+2. Create a new Laravel application using the Laravel installer CLI. The installer will prompt you to select your preferred starter kit:
+
+```bash
+laravel new my-app
+```
+
+3. Navigate to your project directory and install frontend dependencies:
+
+```bash
+cd my-app
+npm install && npm run build
+```
+
+4. Start the Laravel development server:
+
+```bash
+composer run dev
+```
+
+Your application will be accessible in your web browser at http://localhost:8000.
+
 ### Official Documentation
 
 Documentation for all Laravel starter kits can be found on the [Laravel website](https://laravel.com/docs/starter-kits).
