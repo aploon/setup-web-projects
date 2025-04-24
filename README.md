@@ -15,9 +15,9 @@ Choose the technology stack you want to work with from the sections below. Each 
 
 ## Quick Navigation
 
-[![Tech Stack Navigation](https://raw.githubusercontent.com/yourusername/setup-web-projects/main/docs/tech-stack-nav.png)](https://github.com/yourusername/setup-web-projects#tech-stack-navigation)
+[![Tech Stack Navigation](https://raw.githubusercontent.com/aploon/setup-web-projects/main/assets/tech-stack-nav.png)](https://github.com/aploon/setup-web-projects#tech-stack-navigation)
 
-> Click the image above to quickly navigate to your desired technology stack. No need to scroll through the entire document!
+> Quickly navigate to your desired technology stack. No need to scroll through the entire document!
 
 ## Laravel And Vue.js
 
